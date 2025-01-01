@@ -175,7 +175,7 @@ Trong đó:
 <img src="cat.jpg" alt="Hình ảnh con mèo" width="300" height="200">  
 ```
 # 2. `<picture>`
-### Thẻ <picture> được sử dụng để cung cấp nhiều phiên bản của một hình ảnh, tùy thuộc vào kích thước màn hình hoặc điều kiện cụ thể.
+### Thẻ `<picture>` được sử dụng để cung cấp nhiều phiên bản của một hình ảnh, tùy thuộc vào kích thước màn hình hoặc điều kiện cụ thể.
 ## Cú pháp:
 ```html
 <picture>  
