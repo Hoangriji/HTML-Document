@@ -7,7 +7,7 @@ các thẻ để hiển thị văn bản, hình ảnh, liên kết, và khả n�
 
 **Một cấu trúc của file HTML:**
 
-![Một cấu trúc của file HTML](Img/vd1.png)
+![Một cấu trúc của file HTML](../Imgs/introduce.png)
 
 Trong đó:
  - `<!DOCTYPE html>` (document type: html): để khai báo cho trình duyệt biết đây là kiểu tài liệu HTML.
