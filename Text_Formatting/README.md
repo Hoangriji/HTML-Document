@@ -1,7 +1,7 @@
 # 📝 HTML Text Formatting
 
 ## 📌 1. Giới thiệu
-HTML Text Formatting là cách sử dụng các thẻ HTML để định dạng văn bản trên trang web, giúp nội dung dễ đọc, rõ ràng và nhấn mạnh những phần quan trọng. Các thẻ định dạng có thể giúp in đậm, in nghiêng, gạch chân, tạo trích dẫn, chỉ số, đánh dấu văn bản, v.v.
+HTML Text Formatting là cách sử dụng các thẻ HTML để định dạng văn bản trên trang web, giúp nội dung dễ đọc, rõ ràng và nhấn mạnh những phần quan trọng. Các thẻ định dạng có thể giúp in đậm, in nghiêng, gạch chân, tạo trích dẫn, chỉ số, đánh dấu văn bản, v.v
 
 ---
 
