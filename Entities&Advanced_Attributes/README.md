@@ -172,7 +172,7 @@ Xác định thứ tự tab của các phần tử khi điều hướng bằng b
 <input type="text" tabindex="2">
 ```
 
-## Tổng kếtkết
+## Tổng kết
 Việc sử dụng các thuộc tính nâng cao này giúp tối ưu trải nghiệm người dùng và làm cho trang web của bạn linh hoạt hơn.
 
 ---
