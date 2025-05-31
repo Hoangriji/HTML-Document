@@ -1,39 +1,69 @@
-# HTML Document README
+# 📄 TỔNG QUAN TÀI LIỆU HTML
 
-## Giới thiệu
-Tài liệu này được biên soạn nhằm cung cấp kiến thức về HTML cho sinh viên ngành Công nghệ thông tin. Tài liệu bao gồm các phần lý thuyết, ví dụ minh họa và bài tập thực hành để giúp sinh viên nắm vững kiến thức và áp dụng vào thực tế.
+Tài liệu này tổng hợp tất cả các chủ đề quan trọng về HTML, từ khởi đầu, thiết lập môi trường, kiến thức cơ bản, semantic & layout cho đến form và các thuộc tính nâng cao. Mỗi thư mục con đều có file `README.md` riêng để bạn dễ dàng tra cứu và học chi tiết.
 
-# 👨‍💻 Thông tin tác giả
+---
 
-- 🎓 **Tác giả & Biên tập**: [Team HTML - K20]
-- 🏫 **Trường**: [Đại học Công Nghiệp TP.HCM](https://iuh.edu.vn/)
-- 📚 **Khoa**: Công nghệ Thông tin
-- 🔧 **Ban phụ trách**: [Ban Công Nghệ](https://www.facebook.com/profile.php?id=61572321333029)
+## 🟢 01_Introduction (Giới thiệu chung)
+- **Đường dẫn**: [`01_Introduction/README.md`](Introduce/README.md)  
+- **Nội dung chính**:  
+  - Khái niệm HTML là gì ?
+  - “Hello World” đầu tiên với file `index.html`  
+  - Công cụ cần thiết (Editor, trình duyệt) 
+  - Những thứ cơ bản và thường xuyên được sử dụng trong HTML
 
-# 📋 Nội dung
+---
 
-- ✅ **Kiến thức lập trình HTML từ cơ bản đến nâng cao**
-- ✅ **Các ví dụ minh họa và bài tập thực hành**
+## 🔵 02_Setup_Environment (Thiết lập môi trường)
+- **Đường dẫn**: [`02_Setup_Environment/README.md`](Setup_Environment/README.md)  
+- **Nội dung chính**:  
+  - Cài đặt VSCode và các extension (Live Server…)  
 
-# 👥 Đối tượng áp dụng
+---
 
-- 🎯 **Sinh viên ngành Công nghệ thông tin**
-- 🎯 **Lập trình viên web mới bắt đầu** với ngôn ngữ HTML
+## 🟢 03_HTML_Basics (Kiến thức cơ bản về HTML)
+- **Đường dẫn**: [`03_HTML_Basics/README.md`](HTML_Basics/README.md)  
+- **Nội dung chính**:  
+  - Các kiến thức cơ bản về HTML
 
-# ⚠️ Độ chính xác
+---
 
-Do nội dung được viết bởi nhóm sinh viên, tài liệu có thể chưa đảm bảo độ chính xác 100% và vẫn còn nhiều thiếu sót cần bổ sung. **Rất mong nhận được đóng góp từ cộng đồng** để cải thiện nội dung tài liệu.
+## 🟡 04_Structure_&Semantics (Cấu trúc sematic & bố cục)
+- **Đường dẫn**: [`04_Structure&Semantics/README.md`](04_Structure&Semantics/README.md)  
+- **Nội dung chính**:  
+  - Cấu trúc và bố cục của một trang HTML
+  - Cách thức render ra giao diện của HTML 
 
-# 🤝 Dự án cộng đồng
+---
 
-Đây là **dự án cộng đồng** được thực hiện bởi **Ban Công Nghệ - Trường Đại học Công Nghiệp Tp.HCM**.
+## 🟣 05_Forms&Inputs (Form và các loại Input)
+- **Đường dẫn**: [`05_Forms&Inputs/README.md`](05_Forms&Inputs/README.md)  
+- **Nội dung chính**:  
+  - Form và input types 
 
-# 📜 Điều khoản sử dụng
+---
 
-- ❌ **Không được sao chép, chỉnh sửa hoặc sử dụng cho mục đích thương mại**
-- ✅ **Chỉ sử dụng cho mục đích học tập và nghiên cứu**
-- ⚠️ **Nghiêm cấm mọi hành vi vi phạm bản quyền**
+## 🔴 06_Advanced_Attributes (Thuộc tính nâng cao)
+- **Đường dẫn**: [`06_Advanced_Attributes/README.md`](06_Advanced_Attributes/README.md)  
+- **Nội dung chính**:  
+  - Các thuộc tính nâng cao trong HTML
 
-# 📞 Liên hệ góp ý
+---
 
-**Facebook:** [Ban Công Nghệ - ĐH Công Nghiệp TP.HCM](https://www.facebook.com/profile.php?id=61572321333029)
+## ℹ️ 00_About_Us (Giới thiệu nhóm)
+- **Đường dẫn**: [`00_About_US/README.md`](About_Us.md)  
+- **Nội dung chính**:  
+  - Giới thiệu nhóm tác giả
+  - Thông tin liên hệ
+  - Tổng quan mục đích, đối tượng hướng tới  
+  - Các điều khoản sử dụng tài liệu
+
+---
+
+### 🌐 Gợi ý mở rộng
+- **CSS cơ bản**: Tham khảo [tại đây](https://github.com/Vu-OG/BCN_Document_CSS)
+- **JavaScript cơ bản**: Tham khảo tài liệu JavaScript riêng [tại đây](https://github.com/MaiTheHao/JS-Document.git)
+
+---
+
+*Chúc bạn học tập hiệu quả và dễ dàng theo dõi tài liệu!*
