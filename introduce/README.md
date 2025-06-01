@@ -373,77 +373,95 @@ Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `
 
 ## Trắc nghiệm
 
-    1. HTML có phải là ngôn ngữ lập trình không?
-        a. Có, là ngôn ngữ lập trình
-        b. Không, HTML là ngôn ngữ đánh dấu, được sử dụng để mô tả cấu trúc và bố cục của trang web
-    <br>
-    2. Thẻ <head> dùng để làm gì?
-        a. Chứa các thông tin siêu dữ liệu (metadata)
-        b. chứa nội dung trang web
+**1. HTML có phải là ngôn ngữ lập trình không?**  
+- a. Có, là ngôn ngữ lập trình  
+- b. Không, HTML là ngôn ngữ đánh dấu, được sử dụng để mô tả cấu trúc và bố cục của trang web  
+
+---
+
+**2. Thẻ `<head>` dùng để làm gì?**  
+- a. Chứa các thông tin siêu dữ liệu (metadata)  
+- b. Chứa nội dung trang web  
+
+---
+
+**3. Cách chèn ảnh nào sau đây là đúng?**  
+- a. `<img src="image.jpg" alt="Mô tả hình ảnh" width="300">`  
+- b. `<a href="image.jpg">Mô tả hình ảnh</a>`  
+
+---
+
+**4. Sự khác biệt giữa thẻ `<ul>` và `<ol>` là gì?**  
+- a. `<ul>` tạo danh sách không có thứ tự (các dấu chấm), `<ol>` có thứ tự (các số hoặc ký tự).  
+- b. `<ol>` tạo danh sách không có thứ tự (các dấu chấm), `<ul>` có thứ tự (các số hoặc ký tự).  
+
+---
+
+**5. Thẻ nào được sử dụng để tạo form?**  
+- a.  
+    ```html
+    <form>
+        Họ và tên: 
         <br>
-    3. Cách chèn ảnh nào sau đây là đúng?
-        a. `<img src="image.jpg" alt="Mô tả hình ảnh" width="300">`
-        b. `<a href="image.jpg">Mô tả hình ảnh</a>`
-        <br>
-    4. Sự khác biệt giữa thẻ `<ul>` và `<ol>` là gì?
-        a. `<ul>` Tạo danh sách không có thứ tự (các dấu chấm), `<ol>` có thứ tự (các số hoặc ký tự).
-        b. `<ol>` Tạo danh sách không có thứ tự (các dấu chấm), `<ul>` có thứ tự (các số hoặc ký tự).
-        <br>
-    5. Thẻ nào được sử dụng để tạo form?
-        a.
-        ```
-        <form>
-            Họ và tên: 
-            <br>
-            Tuổi:
-        </form>
-        ```
-        b. 
-        ```
-        <table>
-            Họ và tên:
-            <br> 
-            Tuổi:
-        </table>
-        ```
-        <br>
-    6. Thẻ `<a>` có tác dụng gì?
-        a. Được dùng để tạo liên kết 
-        b. Được dùng để nhóm các phần tử với nhau
-        <br>
-    7. Thẻ `<h1>` nhỏ hơn thẻ `<h3>` đúng không?
-        a. Có
-        b. Không 
-        <br>
-    8. Làm thế nào để ngắt dòng trong HTML?
-        a. `<span>`
-        b. `<br>`
-        <br>
-    9. Thẻ nào tạo một nút bấm trong HTML?
-        a. `<button>`
-        b. `<btn>`
-        <br>
-    10. Lỗi sai của đoạn code dưới đây nằm ở dòng nào?
-        ```
-        1   <!DOCTYPE html>
-        2   <html lang="en">
-        3   <head>
-        4       <title>Trang web cơ bản</title>
-        5   </head>
-        6   <body>
-        7       <h1>Chào mừng đến với trang web của tôi</h1>
-        8      <p>Đây là một đoạn văn mô tả.<p>
-        9      <img src="image.jpg" alt="Hình ảnh minh họa">
-        10      <a href="https://example.com">Truy cập trang web</a>
-        11      <ul>
-        12          <li>Mục 1</li>
-        13          <li>Mục 2</li>
-        14       </ul>
-        15      </body>
-        16  </html>
-        ```
-        <br>
-        
+        Tuổi:
+    </form>
+    ```
+- b.  
+    ```html
+    <table>
+        Họ và tên:
+        <br> 
+        Tuổi:
+    </table>
+    ```
+
+---
+
+**6. Thẻ `<a>` có tác dụng gì?**  
+- a. Được dùng để tạo liên kết  
+- b. Được dùng để nhóm các phần tử với nhau  
+
+---
+
+**7. Thẻ `<h1>` nhỏ hơn thẻ `<h3>` đúng không?**  
+- a. Có  
+- b. Không  
+
+---
+
+**8. Làm thế nào để ngắt dòng trong HTML?**  
+- a. `<span>`  
+- b. `<br>`  
+
+---
+
+**9. Thẻ nào tạo một nút bấm trong HTML?**  
+- a. `<button>`  
+- b. `<btn>`  
+
+---
+
+**10. Lỗi sai của đoạn code dưới đây nằm ở dòng nào?**  
+```html
+1   <!DOCTYPE html>
+2   <html lang="en">
+3   <head>
+4       <title>Trang web cơ bản</title>
+5   </head>
+6   <body>
+7       <h1>Chào mừng đến với trang web của tôi</h1>
+8       <p>Đây là một đoạn văn mô tả.<p>
+9       <img src="image.jpg" alt="Hình ảnh minh họa">
+10      <a href="https://example.com">Truy cập trang web</a>
+11      <ul>
+12          <li>Mục 1</li>
+13          <li>Mục 2</li>
+14      </ul>
+15  </body>
+16  </html>
+```
+---
+
 ## Thực hành
 
 ### - Tạo một trang web giới thiệu về bản thân

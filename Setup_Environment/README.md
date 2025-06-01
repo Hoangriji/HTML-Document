@@ -18,8 +18,8 @@ Chính vì vậy ứng dụng chuyên biên tập, soạn thảo code này trở
 
 ### Các Bước Cài Đặt Visual Studio Code
 
-🛠 Bước 1: Tải và cài đặt VS Code từ trang chủ 👉 [Visual Studio Code](https://code.visualstudio.com/)
-🛠 Bước 2: Tạo một thư mục dự án mới bằng cách chọn `File` → `New Folder`→ Đặt tên thư mục theo tên dự án
+🛠 Bước 1: Tải và cài đặt VS Code từ trang chủ 👉 [Visual Studio Code](https://code.visualstudio.com/)<br>
+🛠 Bước 2: Tạo một thư mục dự án mới bằng cách chọn `File` → `New Folder`→ Đặt tên thư mục theo tên dự án<br>
 🛠 Bước 3: Vào VS Code, tạo một file HTML mới bằng cách vào `File` → `New File` rồi lưu lại với tên `index.html`
 
 → *Video hướng dẫn chi tiết:* [*Cách tải Visual Studio Code*](https://youtu.be/xrHn-WQhbhE?si=TLetwogqnp_mPbEq)
