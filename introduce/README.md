@@ -623,6 +623,5 @@ Hãy tạo một trang web HTML đơn giản với chủ đề "Hành trình h�
     - Cung cấp thông tin thay thế cho nội dung không phải văn bản (alternative text)
 <br>
 # Các trang web giúp bạn học tốt HTML
-# [W3School](http://https://www.w3schools.com/)
-
-# [F8](http://https://fullstack.edu.vn/)
+- [W3School](https://www.w3schools.com/)
+- [F8](https://fullstack.edu.vn/)
