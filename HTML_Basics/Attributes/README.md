@@ -29,14 +29,52 @@ HTML Attributes (thuộc tính HTML) cung cấp thông tin bổ sung cho các th
 - Có giá trị nằm trong dấu ngoặc kép (`" "`).
 - Một thẻ có thể có nhiều thuộc tính.
 
-### 🧩 Ví dụ cơ bản:
+````markdown
+# Thuộc tính `target` trong thẻ `<a>`
+
+## 🔹 Các giá trị phổ biến của `target`
+
+### 1. `_self` (mặc định)
+- Mở liên kết ngay trên **tab hiện tại**.
+- Nếu không ghi `target`, thì mặc định là `_self`.
+
 ```html
-<a href="https://www.google.com/" target="_blank">Truy cập Google</a>
+<a href="https://example.com" target="_self">Mở ngay tại tab này</a>
+````
+---
+### 2. `_blank`
+* Mở liên kết trong một **tab mới** (hoặc cửa sổ mới tùy trình duyệt).
+* Thường dùng khi **không muốn người dùng rời khỏi trang hiện tại**.
+```html
+<a href="https://example.com" target="_blank">Mở tab mới</a>
 ```
-- `href`: Xác định đường dẫn liên kết.
-- `target="_blank"`: Mở liên kết trong tab mới.
+⚠️ **Lưu ý**: Khi dùng `_blank` thì nên đi kèm `rel="noopener"` hoặc `rel="noreferrer"` để tránh tấn công **tabnabbing**.
 
 ---
+### 3. `_parent`
+* Mở liên kết trong **cửa sổ cha (parent frame)**.
+* Dùng trong trường hợp trang hiện tại nằm trong một **iframe**, và muốn link mở ở **khung cha** thay vì trong iframe.
+```html
+<a href="https://example.com" target="_parent">Mở trong parent</a>
+```
+
+---
+### 4. `_top`
+* Mở liên kết trong **cửa sổ chính (top-level window)**.
+* Loại bỏ tất cả các iframe bao quanh.
+```html
+<a href="https://example.com" target="_top">Mở thoát khỏi iframe</a>
+```
+
+---
+### 5. Tên tùy chọn (custom name)
+* Nếu bạn đặt tên cho một **iframe** hoặc **cửa sổ**, thì có thể mở link trực tiếp trong đó.
+Ví dụ:
+```html
+<iframe name="myframe" width="400" height="200"></iframe>
+<a href="https://example.com" target="myframe">Mở trong iframe</a>
+```
+👉 **Kết quả**: Khi bấm link, trang `example.com` sẽ mở bên trong iframe có `name="myframe"`.
 
 ## 🔹 Danh Sách Các HTML Attributes Phổ Biến (Cú pháp + Ví dụ + Giải thích)
 
