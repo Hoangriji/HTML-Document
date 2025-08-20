@@ -351,61 +351,61 @@ HTML Attributes giúp trang web trở nên linh hoạt, tương tác và dễ ki
 
 ## ❓ 10 Câu Hỏi Trắc Nghiệm Ôn Tập
 
-1. Thuộc tính `href` được sử dụng với thẻ nào sau đây?
+1. Thuộc tính `href` được sử dụng với thẻ nào sau đây?<br>
     a) `<img>`  
     b) `<a>`  
     c) `<p>`  
     d) `<div>`
 
-2. `target="_blank"` có tác dụng gì?
+2. `target="_blank"` có tác dụng gì?<br>
     a) Mở liên kết trong cùng tab  
     b) Mở liên kết trong cửa sổ mới  
     c) Mở liên kết trong tab mới  
     d) Không có tác dụng gì
 
-3. Thuộc tính nào dùng để hiển thị gợi ý nhập liệu trong ô input?
+3. Thuộc tính nào dùng để hiển thị gợi ý nhập liệu trong ô input?<br>
     a) `value`  
     b) `alt`  
     c) `placeholder`  
     d) `title`
 
-4. `style="color: red;"` có tác dụng gì?
+4. `style="color: red;"` có tác dụng gì?<br>
     a) Thay đổi kích thước văn bản  
     b) Làm văn bản nghiêng  
     c) Đặt màu văn bản là đỏ  
     d) Không có tác dụng
 
-5. `alt` là thuộc tính dành cho thẻ nào?
+5. `alt` là thuộc tính dành cho thẻ nào?<br>
     a) `<a>`  
     b) `<p>`  
     c) `<img>`  
     d) `<input>`
 
-6. `id` khác `class` ở điểm nào?
+6. `id` khác `class` ở điểm nào?<br>
     a) `id` dùng được nhiều lần, `class` thì không  
     b) `id` là duy nhất, `class` có thể lặp lại  
     c) Cả hai giống nhau  
     d) `class` không dùng trong HTML
 
-7. Thuộc tính `src` dùng để làm gì?
+7. Thuộc tính `src` dùng để làm gì?<br>
     a) Thêm liên kết  
     b) Chèn hình ảnh hoặc tài nguyên  
     c) Tạo input  
     d) Không có tác dụng
 
-8. Thẻ nào KHÔNG sử dụng được thuộc tính `href`?
+8. Thẻ nào KHÔNG sử dụng được thuộc tính `href`?<br>
     a) `<a>`  
     b) `<link>`  
     c) `<img>`  
     d) `<area>`
 
-9. `title` hiển thị nội dung ở đâu?
+9. `title` hiển thị nội dung ở đâu?<br>
     a) Trên đầu trình duyệt  
     b) Dưới chân trang  
     c) Khi di chuột vào phần tử  
     d) Không hiển thị
 
-10. Thuộc tính nào sau đây không phải của thẻ `<input>`?
+10. Thuộc tính nào sau đây không phải của thẻ `<input>`?<br>
     a) `type`  
     b) `placeholder`  
     c) `src`  
