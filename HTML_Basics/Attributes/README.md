@@ -29,7 +29,7 @@ HTML Attributes (thuộc tính HTML) cung cấp thông tin bổ sung cho các th
 - Có giá trị nằm trong dấu ngoặc kép (`" "`).
 - Một thẻ có thể có nhiều thuộc tính.
 
-````markdown
+
 # Thuộc tính `target` trong thẻ `<a>`
 
 ## 🔹 Các giá trị phổ biến của `target`
@@ -40,7 +40,7 @@ HTML Attributes (thuộc tính HTML) cung cấp thông tin bổ sung cho các th
 
 ```html
 <a href="https://example.com" target="_self">Mở ngay tại tab này</a>
-````
+```
 ---
 ### 2. `_blank`
 * Mở liên kết trong một **tab mới** (hoặc cửa sổ mới tùy trình duyệt).
