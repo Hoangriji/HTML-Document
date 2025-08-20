@@ -111,6 +111,30 @@ Ví dụ:
 ```html
 <a href="https://example.com" rel="noopener">Liên kết an toàn</a>
 ```
+#### Chi tiết các giá trị `rel` — giải thích, tác dụng và ví dụ
+
+| Giá trị `rel`      | Ý nghĩa / Tác dụng | Khi dùng / Ví dụ |
+|--------------------|--------------------|------------------|
+| **noopener**       | Chặn trang đích truy cập `window.opener` khi mở bằng `target="_blank"`. Ngăn tabnabbing, bảo mật. | Luôn dùng khi mở tab mới.<br><br>`<a href="https://external.com" target="_blank" rel="noopener">Mở an toàn</a>` |
+| **noreferrer**     | Không gửi header `Referer` tới trang đích; cũng chặn `window.opener`. Tăng quyền riêng tư. | Khi cần ẩn nguồn truy cập.<br><br>`<a href="https://external.com" target="_blank" rel="noreferrer">Mở và ẩn nguồn</a>` |
+| **nofollow**       | Yêu cầu search engine không truyền PageRank/link juice. Ngăn spam SEO. | Link quảng cáo, user-generated.<br><br>`<a href="https://example.com" rel="nofollow">Không truyền SEO</a>` |
+| **ugc**            | Đánh dấu liên kết từ nội dung do người dùng tạo (comment, forum, review). | Comment, forum.<br><br>`<a href="https://example.com" rel="ugc">Link trong comment</a>` |
+| **sponsored**      | Đánh dấu liên kết trả phí/quảng cáo/affiliate. | Quảng cáo, affiliate.<br><br>`<a href="https://affiliate.example" rel="sponsored">Link affiliate</a>` |
+| **canonical**      | Khai báo URL chuẩn cho nội dung (tránh duplicate). | Trong `<head>`:<br><br>`<link rel="canonical" href="https://example.com/bai-chinh" />` |
+| **alternate** / **hreflang** | Chỉ ra phiên bản thay thế/ngôn ngữ khác. | `<link rel="alternate" hreflang="vi" href="https://example.com/vi" />` |
+| **preload** / **prefetch** / **preconnect** / **dns-prefetch** | Tối ưu hiệu năng: tải trước tài nguyên, kết nối sớm. | `<link rel="preload" href="/fonts/myfont.woff2" as="font" crossorigin>`<br>`<link rel="preconnect" href="https://cdn.example.com">` |
+| **prev** / **next**| Chỉ trang trước/sau trong phân trang. | `<link rel="prev" href="/page/1" />`<br>`<link rel="next" href="/page/3" />` |
+| **author** / **license** / **help** / **bookmark** / **tag** | Semantic hint: tác giả, giấy phép, trợ giúp, đánh dấu, thẻ. | `<a href="/author/john" rel="author">Tác giả</a>`<br>`<a href="/license/cc" rel="license">Giấy phép</a>` |
+
+---
+
+**Ghi chú & best practices:**
+- Khi mở tab mới (`target="_blank"`), luôn thêm `rel="noopener"` hoặc `rel="noopener noreferrer"`.
+- SEO: dùng `sponsored` cho link trả phí, `ugc` cho link do người dùng tạo, `nofollow` cho link không muốn truyền PageRank.
+- Có thể kết hợp nhiều giá trị: `rel="nofollow noopener noreferrer"`.
+- Một số giá trị chỉ là semantic hint, số khác có hiệu ứng kỹ thuật.
+- Kiểm tra tương thích khi dùng các giá trị tối ưu hiệu năng (`preload`, `preconnect`...).
+- Không dùng `noreferrer` nếu cần referrer cho analytics/affiliate.
 
 ---
 
